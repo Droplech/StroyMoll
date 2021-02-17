@@ -226,8 +226,12 @@ ul{
     color: #E3B831;
     
 }
+.catalog_block .col_detail_block .cat_detail .content .cont_item ul  li{
+    padding: 0;
+}
 .catalog_block .col_detail_block .cat_detail .content .cont_item ul > li +li{
     margin-top: 10px;
+    
 }
 .catalog_block .col_detail_block .cat_detail .content .cont_item .links{
     margin-bottom: 50px;
@@ -673,7 +677,7 @@ ul{
 /* trading_platform */
 .trading_platform {
     padding-top: 50px;
-    height: 10000px;
+    
 }
 .platform_content .title{
     font-size: 48px;
@@ -692,9 +696,14 @@ ul{
     margin-right: 15px;
 
 }
+
 .platform_content .link_tabs a:hover{
     background-color: #FFD231;
     color: #fff;
+}
+.platform_content .link_tabs .a_active{
+    background-color: #FFD231 !important;
+    color: #fff !important;
 }
 .platform_content .tabs_wrapper{
     margin-top: 20px;
@@ -753,17 +762,54 @@ ul{
     font-size: 20px;
 }
 
+.platform_content .tabs_wrapper .tab_item .tab_detail{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.platform_content .tabs_wrapper .tab_item .tab_detail .left{
+    width: 515px;
+    padding-top: 35px;
+}
+.platform_content .tabs_wrapper .tab_item .tab_detail .left .img img{
+    width: 100%;
+}
+.platform_content .tabs_wrapper .tab_item .tab_detail .left .txt h3{
+    font-size: 30px;
+    margin-top: 5px;
+}
+.platform_content .tabs_wrapper .tab_item .tab_detail .left .txt p{
+    font-size: 18px;
+}
+.platform_content .tabs_wrapper .tab_item .map {
+    margin-top: 70px;
+}
+.platform_content .tabs_wrapper .tab_item .map .title{
+    font-size: 48px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
 
+.platform_content .tabs_wrapper .tab_item .map .map_content{
+    background-color: #F9F9F9;
+    padding: 16px 0;
+}
+.platform_content .tabs_wrapper .tab_item .map .map_content .img_map{
+    
+    width: 100%;
+}
+.platform_content .tabs_wrapper .tab_item .map .map_content .img_map img{
+    
+    width: 100%;
+}
 
+.tabs_wrapper .tab_item {
+    display: none;
+}
 
-
-
-
-
-
-
-
-
+.tab_item-active{
+    display: block !important;
+}
 
 
 
