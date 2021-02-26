@@ -178,6 +178,48 @@ const counter = (selector, action) => {
 
 
 
+
+
+
+$('.choice_item').click(function(){
+    $('.choice_item').removeClass('choice_item-active ')
+    $(this).addClass('choice_item-active ')
+})
+
+
+
+
+$('.basket_left_input input').click(function(){
+    $('.basket_left_input .label').removeClass('input-label-active')
+    $(this).prev().addClass('input-label-active')
+})
+
+
+
+
+$('.data_white_block').click(function(){
+    $('.basket_left_input .label').removeClass('input-label-active')
+})
+
+
+$('.tabs_del a').click(function(e){
+    e.preventDefault()
+    $('.tabs_del a').removeClass('tabs_del-a-active')
+    $(this).addClass('tabs_del-a-active')
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
 $('.slider_shop').slick({
     dots: false,
     infinite: true,
@@ -198,7 +240,86 @@ $('.brand-slider').slick({
     speed: 300,
     slidesToShow: 6,
     slidesToScroll: 3,
+    responsive:[
+        {
+            breakpoint: 1450,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 2,
+                infinite: true,
+                dots: false
+            }
+        },
+        {
+            breakpoint: 1370,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 2,
+                infinite: true,
+                dots: false
+            }
+        },
+        {
+            breakpoint: 500,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
+            }
+        }
+    ]
 })
+
+
+
+$('.choice_prod_slider').slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 5,
+    slidesToScroll: 2,
+    responsive:[
+        {
+            breakpoint: 1370,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 2,
+                infinite: true,
+                dots: false
+            }
+        },
+        {
+            breakpoint: 1290,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 2,
+                infinite: true,
+                dots: false
+            }
+        },
+        {
+            breakpoint: 770,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                infinite: true,
+                dots: false
+            }
+        },
+        {
+            breakpoint: 500,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
+            }
+        }
+    ]
+})
+
+
 
 
 $('.brands_slider').slick({
@@ -272,16 +393,17 @@ arrows:false,
 focusOnSelect: true,
 responsive:[
     {
-    breakpoint: 420,
-    settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        infinite: true,
-        
-    }
+        breakpoint: 500,
+        settings: {
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false
+        }
     }
 ]
 });
+
 
 
 
