@@ -2580,12 +2580,16 @@ ul{
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-.basket_del_content .del_col_left .block_pers_data div{
+.basket_del_content .del_col_left .block_pers_data div,
+.basket_del_content .del_col_left .met_paym div{
     width: 100%;
     position: relative;
 }
 
-.basket_del_content .del_col_left .block_pers_data div input{
+
+
+.basket_del_content .del_col_left .block_pers_data div input,
+.basket_del_content .del_col_left .met_paym div input{
     width: 100%;
     margin-top: 45px;
     border: none;
@@ -2596,11 +2600,13 @@ ul{
     
 }
 
-.basket_del_content .del_col_left .block_pers_data div input:focus{
+.basket_del_content .del_col_left .block_pers_data div input:focus,
+.basket_del_content .del_col_left .met_paym div input:focus{
     border-bottom-color:#000 ;
 }
 
-.basket_del_content .del_col_left .block_pers_data div .label{
+.basket_del_content .del_col_left .block_pers_data div .label,
+.basket_del_content .del_col_left .met_paym div .label{
     position: absolute;
     font-size: 24px;
     color: #949494;
@@ -2608,7 +2614,8 @@ ul{
     left: 3px;
     transition: .3s;
 }
-.basket_del_content .del_col_left .block_pers_data div input:focus .label{
+.basket_del_content .del_col_left .block_pers_data div input:focus .label,
+.basket_del_content .del_col_left .met_paym div input:focus .label{
     color: red;
 }
 
@@ -2935,7 +2942,10 @@ ul{
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
-
+#tab-pickup{
+    background-color: #fff;
+    
+}
 
 
 

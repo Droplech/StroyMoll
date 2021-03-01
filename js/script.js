@@ -211,7 +211,13 @@ $('.choice_item').click(function(){
 $('.basket_left_input input').click(function(){
     $('.basket_left_input .label').removeClass('input-label-active')
     $(this).prev().addClass('input-label-active')
+   
 })
+
+
+
+
+
 
 
 
