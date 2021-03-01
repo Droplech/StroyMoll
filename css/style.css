@@ -3642,6 +3642,12 @@ ul{
     .basket_end .basket_del_content .del_col_left_top{
         width: 100%;
     }
+    .basket_wrapper .basket_nav .basket_nav_item .arrow1{
+        right: -23px;
+    }
+    .basket_wrapper .basket_nav .basket_nav_item .arrow2{
+        right: -48px;
+    }
 }
 
 
