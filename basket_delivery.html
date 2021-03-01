@@ -3436,11 +3436,12 @@
                             <h3 class="title">Доставка</h3>
 
                             <div class="tabs_del">
-                                <a href="#" class="tabs_del-a-active">Адрес доставки</a>
-                                <a href="#">Самовывоз</a>
+                                <a href="#tab-adress" class="tabs_del_a tabs_del-a-active">Адрес доставки</a>
+                                <a href="#tab-pickup" class="tabs_del_a">Самовывоз</a>
                             </div>
 
-                            <div class="block_pers_data" >
+
+                            <div class="tabs_del_item block_pers_data tabs_del_item-active" id="tab-adress">
                                 <div class="data_white_block"></div>
                                 <form action="#">
                                     <div class="name basket_left_input">
@@ -3457,6 +3458,51 @@
                                     </div>
                                 </form>
                             </div>
+
+                            <div class="tabs_del_item met_paym met_paym_top " id="tab-pickup">
+
+                                <form action="#">
+
+                                    <label class="label">
+                                        <input type="checkbox" class="check">
+                                        <span class="fake">
+                                            <i class="icon-ok"></i>
+                                        </span>
+                                        <div class="txt">
+                                            <div class="col_left">
+                                                <h3>СтройМолл, мд "Можайский двор"</h3>
+                                                <p>Одинцовский рн. Новоивановсвкое. ул. Западная стр.100</p>
+                                            </div>
+                                            <div class="col_right">
+                                                <h3>При заказе 01.02 до 10:00</h3>
+                                                <p>Привезем 01.02 до 23:00</p>
+                                            </div>
+
+                                        </div>
+                                    </label>
+                                    <label class="label">
+                                        <input type="checkbox" class="check">
+                                        <span class="fake">
+                                            <i class="icon-ok"></i>
+                                        </span>
+                                        <div class="txt">
+                                            <div class="col_left">
+                                                <h3>СтройМолл, мц "Москва"</h3>
+                                                <p>Москва, Каширское шоссе 61, корп. 3А</p>
+                                            </div>
+                                            <div class="col_right">
+                                                <h3>При заказе 01.02 до 10:00</h3>
+                                                <p>Привезем 01.02 до 23:00</p>
+                                            </div>
+
+                                        </div>
+                                    </label>
+                                </form>
+                                
+                            </div>
+
+
+
 
                             <h3 class="title">Способы оплаты</h3>
 

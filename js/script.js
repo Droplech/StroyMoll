@@ -22,6 +22,25 @@ $(document).ready(function(){
     })
     
 })
+
+$(document).ready(function(){
+    $('.tabs_del_a').click(function(e){
+        e.preventDefault()
+        $('.tabs_del_a').removeClass('tabs_del-a-active')
+        $('.tabs_del_item').removeClass('tabs_del_item-active')
+        
+        $(this).addClass('tabs_del-a-active')
+        $($(this).attr('href') ).addClass('tabs_del_item-active')
+
+    })
+    
+})
+
+
+
+
+
+
 //-tabs
 
 $('.shop_tab').click(function(e){

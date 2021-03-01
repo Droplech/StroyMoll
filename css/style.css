@@ -2192,22 +2192,48 @@ ul{
     margin-top: 20px;
 }
 .card_detaoil_page .rel_prod .rel_prod_wrapper .choice_prod .choice_item{
-    padding: 10px 17px;
+    
     border: 1px solid #E0E5E9;
     border-radius: 2px;
     background-color: #fff;
     margin-right: 5px;
     cursor: pointer;
+    text-align: center;
+    height: 43px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .card_detaoil_page .rel_prod .rel_prod_wrapper .choice_prod .choice_item p{
     font-size: 12px;
     color: #9b9b9b;
+    
+    
+  
 }
 .card_detaoil_page .rel_prod .rel_prod_wrapper .choice_prod .choice_item:hover{
-    border: 2px solid #fcdc5fb9
+    border: 4px solid #fcdc5fb9
 }
+
+.card_detaoil_page .rel_prod .rel_prod_wrapper .choice_prod .choice_item_one{
+    width: 80px;
+}
+.card_detaoil_page .rel_prod .rel_prod_wrapper .choice_prod .choice_item_two{
+    width: 177px;
+}
+.card_detaoil_page .rel_prod .rel_prod_wrapper .choice_prod .choice_item_three{
+    width: 180px;
+}
+.card_detaoil_page .rel_prod .rel_prod_wrapper .choice_prod .choice_item_four{
+    width: 77px;
+}
+.card_detaoil_page .rel_prod .rel_prod_wrapper .choice_prod .choice_item_five{
+    width: 130px;
+}
+
+
 .choice_item-active{
-    border: 2px solid #FFCD0D !important;
+    border: 4px solid #FFCD0D !important;
     
 }
 .choice_item-active p{
@@ -2843,8 +2869,8 @@ ul{
 }
 
 .basket_end{
-    padding-bottom: 60px;
-    margin-bottom: 670px;
+    padding-bottom: 400px;
+    
 }
 
 
@@ -2858,6 +2884,64 @@ ul{
 .basket_end .basket_nav_item:nth-child(3) .arrow2{
     left: -313px;
 }
+
+
+
+.basket_del_content .del_col_left .tabs_del_item{
+    display: none;
+}
+.tabs_del_item-active{
+    display: block !important;
+}
+
+
+
+
+.basket_end .basket_del_content{
+    justify-content: center;
+}
+
+.basket_end .basket_del_content .del_col_left_top{
+    width: 350px;
+    display: flex;
+    background-color: #FFD231;
+    margin: 0 auto;
+}
+.basket_end .basket_del_content .del_col_left_top .icon{
+    margin-right: 20px;
+    margin-left: 10px;
+    padding-top: 12px;
+}
+.basket_end .basket_del_content .del_col_left_top .title{
+    padding: 10px 0;
+    color: #fff;
+    letter-spacing: 2px;
+
+}
+
+.basket_end .basket_del_content .number_prod{
+    font-size: 24px;
+    text-align: center;
+    margin: 45px 0 20px 0;
+}
+
+.basket_end .basket_del_content .info_meneger{
+    font-size: 18px ;
+    text-align: center;
+}
+
+
+.basket_end .basket_del_content .del_col_left .block_pers_data{
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:1680px){
     .brands .slick-prev{
@@ -3444,6 +3528,9 @@ ul{
     .card_detaoil_page .rel_prod .rel_prod_wrapper .choice_prod{
         flex-wrap: wrap;
     }
+    .card_detaoil_page .rel_prod .rel_prod_wrapper .choice_prod .choice_item{
+        margin-bottom: 10px;
+    }
     .nav_cardPage ul{
         flex-direction: column;
     }
@@ -3548,6 +3635,12 @@ ul{
     .basket_del_content .del_col_right .col_right_info{
         padding-left: 30px;
         padding-right: 30px;
+    }
+    .basket_wrapper .basket_nav{
+        overflow: hidden;
+    }
+    .basket_end .basket_del_content .del_col_left_top{
+        width: 100%;
     }
 }
 
