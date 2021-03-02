@@ -3631,6 +3631,9 @@ ul{
     #tab-pickup .label .txt .col_right{
         width: 100%;
     }
+    .catalog_wrapper .catalog_content{
+        width: 100%;
+    }
 }
 @media screen and (max-width:400px){
     .footer .footer_content .footer_item_last form button p{
