@@ -2947,7 +2947,9 @@ ul{
     
 }
 
-
+#tab-pickup .label .txt .col_right{
+    width: 37%;
+}
 
 
 
@@ -2969,8 +2971,22 @@ ul{
     .navigation .top_nav form input{
         width: 650px;
     }
+    .catalog_wrapper .catalog_content{
+        padding: 0 20px;
+    }
 }
-
+@media screen and (max-width:1610px){
+    .instrument_content .instrument_item .left{
+        width: 650px;
+        
+    }
+    .instrument_content .instrument_item .left-shop_slider{
+        width: 570px;
+    }
+    .instrument_content .instrument_item .right .right_brands .brand-slider{
+        width: 650px;
+    }
+}
 @media screen and (max-width:1440px){
     .navigation .top_nav form input{
         width: 450px;
@@ -3059,6 +3075,13 @@ ul{
     .basket_wrapper .basket_nav .basket_nav_item p{
         font-size: 20px;
     }
+    .basket_del_content .del_col_left .met_paym_top .txt .col_right h3{
+        text-align: right;
+    }
+    #tab-pickup .label .txt .col_right{
+        width: 60%;
+        justify-content: flex-start;
+    }
   
 }
 @media screen and (max-width:1280px){
@@ -3092,6 +3115,12 @@ ul{
     }
     .basket_wrapper .basket_nav .basket_nav_item p{
         font-size: 17px;
+    }
+}
+@media screen and (max-width:1120px){
+    .catalog_content .content_bot .bot_item{
+        margin: 0 ;
+        margin-bottom: 25px;
     }
 }
 @media screen and (max-width:1024px){
@@ -3229,9 +3258,6 @@ ul{
         
     }
 }
-
-
-
 @media screen and (max-width:770px){
     .categories .baners_block div{
         height: 275px;
@@ -3338,7 +3364,8 @@ ul{
         justify-content: space-around;
     }
     .catalog_content .content_bot .bot_item{
-        margin: 0 20px;
+        margin: 0;
+        margin-bottom: 25px;
     }
     .basket_wrapper .block_your_ordering .your_ordering_item{
         margin-right: 10px;
@@ -3354,9 +3381,7 @@ ul{
         
         flex-basis: 55%;
     }
-    .basket_del_content .del_col_left .met_paym_top .txt{
-        flex-wrap: wrap;
-    }
+    
     .basket_del_content .del_col_left .met_paym_top .txt .col_right{
         margin-top: 15px;
     }
@@ -3444,6 +3469,7 @@ ul{
     }
     .filter_mob{
         width: 70%;
+        margin-bottom: 25px;
     }
     .filter{
         top: 74%;
@@ -3599,6 +3625,12 @@ ul{
         margin-left: 55px;
         flex-basis: 76%;
     }
+    .basket_del_content .del_col_left .met_paym_top .txt{
+        flex-wrap: wrap;
+    }
+    #tab-pickup .label .txt .col_right{
+        width: 100%;
+    }
 }
 @media screen and (max-width:400px){
     .footer .footer_content .footer_item_last form button p{
@@ -3618,6 +3650,7 @@ ul{
     }
     .catalog_content .content_bot .bot_item{
         margin: 0;
+        margin-bottom: 25px;
     }
     .basket_del_content .del_col_left .tabs_del{
         padding: 21px 0 0 7px;
@@ -3657,6 +3690,9 @@ ul{
     }
     .basket_wrapper .basket_nav .basket_nav_item .arrow2{
         right: -48px;
+    }
+    .catalog_wrapper .filter{
+        margin-top: 0;
     }
 }
 
